@@ -21,7 +21,7 @@
   --font-mono: 'JetBrains Mono', monospace;
 }
 
-html { scroll-behavior: smooth; }
+html { scroll-behavior: smooth; overflow-x: clip; }
 
 body {
   font-family: 'Space Grotesk', sans-serif;
@@ -1800,6 +1800,7 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
   color: var(--muted);
   transition: color var(--transition), border-color var(--transition);
 }
+.socials a svg { width: 16px; height: 16px; fill: currentColor; display: block; }
 .socials a:hover { color: var(--text); border-color: rgba(255,255,255,0.2); }
 
 .footer-links {
@@ -1889,6 +1890,13 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
   .footer-top { flex-direction: column; gap: 28px; }
   .footer-links { flex-direction: column; gap: 24px; }
   .footer-bottom { flex-direction: column; text-align: center; }
+}
+
+/* Side-sliding reveals push unrevealed elements past the viewport edge,
+   which makes mobile browsers widen the page. Reveal vertically instead. */
+@media (max-width: 700px) {
+  [data-animate="left"],
+  [data-animate="right"] { transform: translateY(36px); }
 }
 
 @media (max-width: 480px) {
