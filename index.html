@@ -4,7 +4,9 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>dclarkdev &mdash; Technical Pioneer</title>
+  <title>David Clark | Full-stack developer</title>
+  <meta name="description"
+    content="David Clark is a full-stack developer on the Eastern Shore of Delaware and Maryland, and the founder of Denkore Group." />
 
   <!-- Favicons -->
   <link rel="icon" type="image/svg+xml" href="/logos/favicon.svg" />
@@ -30,11 +32,10 @@
         <img src="/logos/logo-nav.svg" alt="dclarkdev" height="40" />
       </a>
       <div class="nav-links">
-        <a href="#clients">Clients</a>
         <a href="#about">About</a>
-        <a href="#local">Services</a>
-        <a href="#portfolio">Portfolio</a>
-        <a href="#stack">Tech Stack</a>
+        <a href="#portfolio">Work</a>
+        <a href="#stack">Stack</a>
+        <a href="#denkore">Denkore</a>
         <a href="#contact" class="nav-cta">Let's Talk</a>
       </div>
       <button class="hamburger" id="hamburger" aria-label="Toggle navigation" aria-expanded="false"
@@ -43,11 +44,10 @@
       </button>
     </div>
     <div class="nav-drawer" id="navDrawer">
-      <a href="#clients" class="drawer-link">Clients</a>
       <a href="#about" class="drawer-link">About</a>
-      <a href="#local" class="drawer-link">Services</a>
       <a href="#portfolio" class="drawer-link">Work</a>
       <a href="#stack" class="drawer-link">Stack</a>
+      <a href="#denkore" class="drawer-link">Denkore</a>
       <a href="#contact" class="drawer-link drawer-cta">Let's Talk</a>
     </div>
   </nav>
@@ -63,89 +63,24 @@
     <div class="hero-body">
       <div class="hero-badge">
         <span class="badge-pulse"></span>
-        Available for new engagements
+        Eastern Shore, DE/MD
       </div>
       <h1 class="hero-headline">
-        <span class="line-top">Technical</span>
-        <span class="line-bot gradient-text">Pioneer.</span>
+        <span class="line-top">David</span>
+        <span class="line-bot gradient-text">Clark.</span>
       </h1>
       <p class="hero-sub">
-        Fractional CTO &amp; Fullstack Engineer.<br />
-        I architect and build the systems that scale your vision.
+        Full-stack developer on the Eastern Shore. I build software that works for the people using it, and I care
+        about making technology feel open to everyone.
       </p>
       <div class="hero-actions">
-        <a href="#portfolio" class="btn-primary">View My Work</a>
-        <a href="#local" class="btn-ghost">Local Services</a>
-      </div>
-      <div class="hero-stats">
-        <div class="stat"><span class="stat-n">50+</span><span class="stat-l">Projects Shipped</span></div>
-        <div class="stat-sep"></div>
-        <div class="stat"><span class="stat-n">8+</span><span class="stat-l">Years Experience</span></div>
-        <div class="stat-sep"></div>
-        <div class="stat"><span class="stat-n">20+</span><span class="stat-l">Happy Clients</span></div>
+        <a href="#portfolio" class="btn-primary">See My Work</a>
+        <a href="#about" class="btn-ghost">My Story</a>
       </div>
     </div>
     <div class="scroll-cue">
       <div class="scroll-line"></div>
       <span>Scroll</span>
-    </div>
-  </section>
-
-  <!-- ========== CLIENTS (social proof — above the fold on scroll) ========== -->
-  <section class="clients" id="clients">
-    <div class="section-wrap">
-      <div class="section-head" data-animate="up">
-        <span class="tag">Trusted By</span>
-        <h2 class="section-title">Organizations That <span class="gradient-text">Rely On Me</span></h2>
-        <p class="section-sub">From seed-stage startups to scaling companies &mdash; I&rsquo;ve been the technical
-          partner that ships.</p>
-      </div>
-
-      <div class="marquee-wrap">
-        <div class="marquee-inner" id="marqueeInner">
-          <div class="client-pill"><i class="fas fa-rocket"></i><span>LaunchPad Co.</span></div>
-          <div class="client-pill"><i class="fas fa-chart-line"></i><span>Apex Analytics</span></div>
-          <div class="client-pill"><i class="fas fa-shield-alt"></i><span>Fortify Security</span></div>
-          <div class="client-pill"><i class="fas fa-bolt"></i><span>SwiftStack</span></div>
-          <div class="client-pill"><i class="fas fa-cube"></i><span>BlockCore Labs</span></div>
-          <div class="client-pill"><i class="fas fa-globe"></i><span>Nexus Digital</span></div>
-          <div class="client-pill"><i class="fas fa-brain"></i><span>Cognify AI</span></div>
-          <div class="client-pill"><i class="fas fa-leaf"></i><span>GreenPath Tech</span></div>
-          <!-- Duplicated for seamless loop -->
-          <div class="client-pill"><i class="fas fa-rocket"></i><span>LaunchPad Co.</span></div>
-          <div class="client-pill"><i class="fas fa-chart-line"></i><span>Apex Analytics</span></div>
-          <div class="client-pill"><i class="fas fa-shield-alt"></i><span>Fortify Security</span></div>
-          <div class="client-pill"><i class="fas fa-bolt"></i><span>SwiftStack</span></div>
-          <div class="client-pill"><i class="fas fa-cube"></i><span>BlockCore Labs</span></div>
-          <div class="client-pill"><i class="fas fa-globe"></i><span>Nexus Digital</span></div>
-          <div class="client-pill"><i class="fas fa-brain"></i><span>Cognify AI</span></div>
-          <div class="client-pill"><i class="fas fa-leaf"></i><span>GreenPath Tech</span></div>
-        </div>
-      </div>
-
-      <div class="highlights-grid">
-        <div class="highlight" data-animate="left">
-          <div class="hl-icon"><i class="fas fa-rocket"></i></div>
-          <div class="hl-text">
-            <h4>0 &rarr; 1 Product Builds</h4>
-            <p>Taken multiple startups from concept to production-ready MVP in under 90 days.</p>
-          </div>
-        </div>
-        <div class="highlight" data-animate="up" data-delay="2">
-          <div class="hl-icon"><i class="fas fa-users-cog"></i></div>
-          <div class="hl-text">
-            <h4>Fractional CTO Engagements</h4>
-            <p>Technical leadership and strategy for growing startups navigating scale.</p>
-          </div>
-        </div>
-        <div class="highlight" data-animate="right" data-delay="4">
-          <div class="hl-icon"><i class="fas fa-cloud-upload-alt"></i></div>
-          <div class="hl-text">
-            <h4>Cloud Migrations</h4>
-            <p>Architected and executed migrations from legacy systems to scalable cloud infrastructure.</p>
-          </div>
-        </div>
-      </div>
     </div>
   </section>
 
@@ -159,27 +94,11 @@
           <div class="avatar-wrap">
             <div class="avatar-ring"></div>
             <div class="avatar">DC</div>
-            <div class="avatar-avail">
-              <span class="badge-pulse"></span>
-              Open to Engagements
-            </div>
           </div>
           <div class="about-meta">
             <div class="meta-item">
               <i class="fas fa-map-marker-alt"></i>
               <span>Eastern Shore Region</span>
-            </div>
-            <div class="meta-item">
-              <i class="fas fa-clock"></i>
-              <span>Available Now</span>
-            </div>
-            <div class="meta-item">
-              <i class="fas fa-briefcase"></i>
-              <span>8+ Years in the Industry</span>
-            </div>
-            <div class="meta-item">
-              <i class="fas fa-language"></i>
-              <span>English (Native)</span>
             </div>
           </div>
 
@@ -192,23 +111,26 @@
                 launched everything.</div>
             </div>
             <div class="tli pu">
-              <div class="tl-date">5 Years</div>
-              <div class="tl-title">Software Engineer @ JPMorgan Chase</div>
-              <div class="tl-desc">Production financial systems, enterprise CI/CD, distributed architecture, millions of
-                daily users, cloud infrastructure.</div>
+              <div class="tl-date">Jan 2020 &ndash; Aug 2024</div>
+              <div class="tl-title">Associate Software Engineer II &middot; JPMorgan Chase, Wilmington, DE</div>
+              <div class="tl-desc">Cloud-native services, authentication and secrets management, service-mesh security
+                and CI/CD for a banking platform.</div>
             </div>
             <div class="tli or">
-              <div class="tl-date">Present</div>
-              <div class="tl-title">Fullstack Software Developer · Rehoboth Beach, DE</div>
-              <div class="tl-desc">Shipping features daily for a local product — full-stack ownership, community
-                embedded.</div>
+              <div class="tl-date">Dec 2024 &ndash; Oct 2025</div>
+              <div class="tl-title">Full-stack web development certification &middot; Devslopes</div>
+            </div>
+            <div class="tli pu">
+              <div class="tl-date">Jun 2025 &ndash; Present</div>
+              <div class="tl-title">Full-Stack Software Developer &middot; Harvard Business Services, Lewes, DE</div>
+              <div class="tl-desc">Maintaining four production systems in CFML and Laravel and migrating legacy CFML
+                logic to Laravel.</div>
             </div>
             <div class="tli gr">
-              <div class="tl-date">Present</div>
-              <div class="tl-title">Founder · Denkore Group LLC</div>
-              <div class="tl-desc">An independent software development and technology consulting firm: web development
-                and ongoing tech partnerships for businesses that want a real ally, without the confusing tech language.
-              </div>
+              <div class="tl-date">Mar 2026 &ndash; Present</div>
+              <div class="tl-title">Founder &middot; Denkore Group LLC</div>
+              <div class="tl-desc">A small technology company building web platforms and infrastructure for small
+                businesses and entertainment companies on the Eastern Shore.</div>
             </div>
           </div>
         </div>
@@ -216,143 +138,45 @@
         <!-- Right: Bio + differentiators -->
         <div class="about-right">
           <span class="tag" data-animate="down">About Me</span>
-          <h2 class="about-title" data-animate="right" data-delay="1">The engineer who<br /><span
-              class="gradient-text">thinks like a founder</span></h2>
+          <h2 class="about-title" data-animate="right" data-delay="1">Building things,<br /><span
+              class="gradient-text">and keeping the door open.</span></h2>
           <div class="about-bio" data-animate="up" data-delay="2">
-            <p>I&rsquo;m David Clark &mdash; a full-stack engineer and fractional CTO with 8+ years of experience
-              turning complex problems into elegant, production-grade solutions. I&rsquo;ve shipped everything from
-              nimble MVPs to distributed systems serving thousands of concurrent users.</p>
-            <p>What separates me from the typical contractor isn&rsquo;t just the code I write &mdash; it&rsquo;s
-              the <strong>business context</strong> I bring to every technical decision. I speak the language of
-              founders, investors, and end users equally well, and I know when to build and when to buy.</p>
+            <p>I&rsquo;m David Clark, a full-stack developer from Sussex County, Delaware. I spent four and a half
+              years at JPMorgan Chase building and securing cloud infrastructure for a banking platform, and I now
+              build and maintain web applications at Harvard Business Services in Lewes.</p>
+            <p>I also run Denkore Group, a small technology company on the Eastern Shore. I started it because access
+              to technology shouldn&rsquo;t depend on your age, your credentials or your background.</p>
           </div>
           <div class="about-pillars">
             <div class="pillar" data-animate="right">
-              <div class="pillar-icon"><i class="fas fa-chess"></i></div>
+              <div class="pillar-icon"><i class="fas fa-door-open"></i></div>
               <div class="pillar-text">
-                <h4>Strategic Architect</h4>
-                <p>Every architecture decision is weighed against your runway, team size, and growth trajectory &mdash;
-                  not just technical elegance.</p>
+                <h4>Access</h4>
+                <p>Technology shouldn&rsquo;t be gated by age, credentials or background. I try to make it feel
+                  available to everyone.</p>
               </div>
             </div>
             <div class="pillar" data-animate="right" data-delay="2">
-              <div class="pillar-icon"><i class="fas fa-shipping-fast"></i></div>
+              <div class="pillar-icon"><i class="fas fa-handshake"></i></div>
               <div class="pillar-text">
-                <h4>Bias for Shipping</h4>
-                <p>MVPs in weeks, not months. Iterative delivery that gets your product into users&rsquo; hands &mdash;
-                  and your investors&rsquo; confidence high.</p>
+                <h4>Presence</h4>
+                <p>I stay in it with the people I work with, through the build and after it.</p>
               </div>
             </div>
             <div class="pillar" data-animate="right" data-delay="4">
-              <div class="pillar-icon"><i class="fas fa-users"></i></div>
+              <div class="pillar-icon"><i class="fas fa-book-open"></i></div>
               <div class="pillar-text">
-                <h4>Team Builder &amp; Mentor</h4>
-                <p>I hire, mentor, and lead engineering teams that scale alongside your product. Culture and process
-                  matter as much as code.</p>
+                <h4>Working in the open</h4>
+                <p>I write about what breaks and how I fixed it, because showing the work helps the next person.</p>
               </div>
             </div>
           </div>
           <div class="about-actions" data-animate="up" data-delay="5">
-            <a href="#contact" class="btn-primary">Work With Me <i class="fas fa-arrow-right"></i></a>
+            <a href="#contact" class="btn-primary">Get in Touch <i class="fas fa-arrow-right"></i></a>
             <a href="#portfolio" class="btn-ghost">See My Work</a>
           </div>
         </div>
 
-      </div>
-    </div>
-  </section>
-
-  <!-- ========== LOCAL SERVICES ========== -->
-  <section id="local">
-    <div class="section-wrap">
-      <div class="section-head" data-animate="up">
-        <span class="tag warm">Local Partnerships</span>
-        <h2 class="section-title">Your Eastern Shore-based tech partner.</h2>
-        <p class="section-sub">I grew up here, I work here. I help local businesses compete and win with technology —
-          professional quality, personal service, no extra mess.</p>
-      </div>
-
-      <div class="local-grid">
-        <div class="local-card reveal">
-          <span class="local-icon">🌐</span>
-          <h3>Get Online &amp; Get Found</h3>
-          <p>When people Google what you do locally, you show up on page 1. When they visit your site, they call.
-            Professional, mobile-ready, and built to convert visitors into customers.</p>
-          <div class="ltag-row">
-            <span class="ltag">Custom Websites</span>
-            <span class="ltag">Mobile-First</span>
-            <span class="ltag">Local SEO</span>
-            <span class="ltag">Google Business</span>
-          </div>
-        </div>
-
-        <div class="local-card reveal d1">
-          <span class="local-icon">🛒</span>
-          <h3>Sell Online</h3>
-          <p>From simple checkout to full online store — e-commerce that matches how your business actually works.
-            Accept payments, manage inventory, and grow without platform limitations.</p>
-          <div class="ltag-row">
-            <span class="ltag">Online Store</span>
-            <span class="ltag">Stripe Payments</span>
-            <span class="ltag">Inventory Management</span>
-          </div>
-        </div>
-
-        <div class="local-card reveal d2">
-          <span class="local-icon">🔧</span>
-          <h3>Fix What's Broken</h3>
-          <p>Slow or out-of-date site? Tools that don't talk to each other? I diagnose the real problem, explain
-            it clearly, and fix it right — no runaround.</p>
-          <div class="ltag-row">
-            <span class="ltag">Booking Systems</span>
-            <span class="ltag">POS Integrations</span>
-            <span class="ltag">Automation</span>
-          </div>
-        </div>
-
-        <div class="local-card reveal">
-          <span class="local-icon">📣</span>
-          <h3>Get More Customers</h3>
-          <p>Your website should work while you're sleeping. Built to turn visitors into calls, browsers into bookings,
-            and traffic into revenue. Clear messaging, fast performance, smart conversion.</p>
-          <div class="ltag-row">
-            <span class="ltag">Lead Capture</span>
-            <span class="ltag">Contact Forms</span>
-            <span class="ltag">Analytics</span>
-          </div>
-        </div>
-
-        <div class="local-card reveal d1">
-          <span class="local-icon">🤝</span>
-          <h3>Ongoing Tech Partner</h3>
-          <p>A technical expert on speed dial — advising on tools, evaluating vendors, and keeping your systems running
-            smoothly. Monthly support without the overhead of a full-time hire.</p>
-          <div class="ltag-row">
-            <span class="ltag">Tech Advisory</span>
-            <span class="ltag">Vendor Mgmt</span>
-            <span class="ltag">Monthly Support</span>
-          </div>
-        </div>
-
-        <div class="local-card reveal d2">
-          <span class="local-icon">🏗️</span>
-          <h3>Custom Tools &amp; Automation</h3>
-          <p>Need to automate a busines process? Have an app idea but need a technical roadmap to
-            strategize the best way possible? Scheduling, follow-ups, inventory, reporting — let's
-            build tools that save real hours every week.</p>
-          <div class="ltag-row">
-            <span class="ltag">Workflow Automation</span>
-            <span class="ltag">Custom Dashboards</span>
-            <span class="ltag">Special Projects</span>
-          </div>
-        </div>
-      </div>
-
-      <div class="proof-block reveal">
-        <div class="proof-label">◆ Client Result · Sussex County</div>
-        <div class="proof-quote">"We had no clue where to begin. David understood our needs and built us
-          exactly what we needed, and now it's ours — without the high costs of traditional development."</div>
-        <div class="proof-attr">— Local Business Owner, Rehoboth Beach area</div>
       </div>
     </div>
   </section>
@@ -363,7 +187,7 @@
       <div class="section-head" data-animate="up">
         <span class="tag">Portfolio</span>
         <h2 class="section-title">What I <span class="gradient-text">Build</span></h2>
-        <p class="section-sub">End-to-end solutions from architecture to deployment</p>
+        <p class="section-sub">Selected projects</p>
       </div>
 
       <div class="carousel-root" data-animate="up" data-delay="2">
@@ -371,7 +195,32 @@
         <div class="car-viewport" id="carViewport" tabindex="0" role="region" aria-label="Project carousel">
           <div class="car-track" id="carTrack">
 
-            <!-- Card 1: E-Commerce -->
+            <!-- Card 1: GGR Music Group -->
+            <article class="car-card">
+              <div class="card-thumb" style="--accent:#10B981">
+                <div class="thumb-ui center-col">
+                  <div class="lp-hero">
+                    <div class="lp-line wide"></div>
+                    <div class="lp-line med"></div>
+                    <div class="lp-btn"></div>
+                  </div>
+                </div>
+                <span class="card-badge">Website</span>
+              </div>
+              <div class="card-body">
+                <h3>GGR Music Group</h3>
+                <p>Website for GGR Music Group, built with Next.js, TypeScript and Tailwind.</p>
+                <div class="card-tags">
+                  <span>Next.js</span><span>TypeScript</span><span>Tailwind</span>
+                </div>
+                <div class="card-tags">
+                  <span><a href="https://ggrmusic.com" target="_blank" rel="noopener noreferrer">Visit</a></span><span><a
+                      href="https://github.com/dclarktech302/ggrmusicgroup" target="_blank" rel="noopener noreferrer">Code</a></span>
+                </div>
+              </div>
+            </article>
+
+            <!-- Card 2: Denkore Group site -->
             <article class="car-card">
               <div class="card-thumb" style="--accent:#FF6200">
                 <div class="thumb-ui">
@@ -384,19 +233,43 @@
                     </div>
                   </div>
                 </div>
-                <span class="card-badge">E-Commerce</span>
+                <span class="card-badge">Website</span>
               </div>
               <div class="card-body">
-                <h3>E-Commerce Platform</h3>
-                <p>Full-featured online store with payment integration, inventory management, and real-time analytics.
-                </p>
+                <h3>Denkore Group site</h3>
+                <p>The website for Denkore Group.</p>
                 <div class="card-tags">
-                  <span>Next.js</span><span>Stripe</span><span>PostgreSQL</span><span>AWS</span>
+                  <span><a href="https://denkore.com" target="_blank" rel="noopener noreferrer">Visit</a></span><span><a
+                      href="https://github.com/dclarktech302/denkore" target="_blank" rel="noopener noreferrer">Code</a></span>
                 </div>
               </div>
             </article>
 
-            <!-- Card 2: SaaS Dashboard -->
+            <!-- Card 3: Component library -->
+            <article class="car-card">
+              <div class="card-thumb" style="--accent:#EC4899">
+                <div class="thumb-ui">
+                  <div class="th-bar"></div>
+                  <div class="portal-grid">
+                    <div class="pg-card"></div>
+                    <div class="pg-card"></div>
+                    <div class="pg-card accent"></div>
+                    <div class="pg-card"></div>
+                  </div>
+                </div>
+                <span class="card-badge">Components</span>
+              </div>
+              <div class="card-body">
+                <h3>Component library</h3>
+                <p>A design component library.</p>
+                <div class="card-tags">
+                  <span><a href="https://design-component-library.vercel.app" target="_blank" rel="noopener noreferrer">Visit</a></span><span><a
+                      href="https://github.com/denkoregroup/design-component-library" target="_blank" rel="noopener noreferrer">Code</a></span>
+                </div>
+              </div>
+            </article>
+
+            <!-- Card 4: Nightdeck -->
             <article class="car-card">
               <div class="card-thumb" style="--accent:#8B5CF6">
                 <div class="thumb-ui">
@@ -417,105 +290,42 @@
                     </div>
                   </div>
                 </div>
-                <span class="card-badge">SaaS Dashboard</span>
+                <span class="card-badge">Project</span>
               </div>
               <div class="card-body">
-                <h3>SaaS Dashboard</h3>
-                <p>Analytics and management platform with real-time data visualization, RBAC, and API integrations.</p>
+                <h3>Nightdeck</h3>
+                <p>Nightdeck, a project live at nightdeck.live.</p>
                 <div class="card-tags">
-                  <span>React</span><span>Node.js</span><span>Redis</span><span>Docker</span>
+                  <span><a href="https://nightdeck.live" target="_blank" rel="noopener noreferrer">Visit</a></span><span><a
+                      href="https://github.com/dclarktech302/nightdeck" target="_blank" rel="noopener noreferrer">Code</a></span>
                 </div>
               </div>
             </article>
 
-            <!-- Card 3: Landing Page -->
-            <article class="car-card">
-              <div class="card-thumb" style="--accent:#10B981">
-                <div class="thumb-ui center-col">
-                  <div class="lp-hero">
-                    <div class="lp-line wide"></div>
-                    <div class="lp-line med"></div>
-                    <div class="lp-btn"></div>
-                  </div>
-                </div>
-                <span class="card-badge">Landing Page</span>
-              </div>
-              <div class="card-body">
-                <h3>Marketing Landing Page</h3>
-                <p>High-conversion pages with A/B testing, animation-rich UI, and integrated lead capture systems.</p>
-                <div class="card-tags">
-                  <span>Next.js</span><span>Framer Motion</span><span>Vercel</span><span>HubSpot</span>
-                </div>
-              </div>
-            </article>
-
-            <!-- Card 4: PWA -->
+            <!-- Card 5: This site -->
             <article class="car-card">
               <div class="card-thumb" style="--accent:#3B82F6">
-                <div class="thumb-ui center-col">
-                  <div class="mobile-frame">
-                    <div class="mobile-screen">
-                      <div class="lp-line wide"></div>
-                      <div class="lp-line med"></div>
-                      <div class="mini-row">
-                        <div class="mini-card"></div>
-                        <div class="mini-card"></div>
-                      </div>
+                <div class="thumb-ui">
+                  <div class="th-bar"></div>
+                  <div class="th-row gap">
+                    <div class="th-block tall"></div>
+                    <div class="th-col">
+                      <div class="th-block"></div>
+                      <div class="th-block"></div>
                     </div>
                   </div>
                 </div>
-                <span class="card-badge">PWA / Mobile Web</span>
+                <span class="card-badge">Website</span>
               </div>
               <div class="card-body">
-                <h3>Progressive Web App</h3>
-                <p>Mobile-first PWA with offline support, push notifications, and native app-like performance.</p>
+                <h3>This site</h3>
+                <p>This site, hosted on AWS (S3, CloudFront, Route 53) and deployed with Terraform and GitHub Actions.</p>
                 <div class="card-tags">
-                  <span>React</span><span>Service Workers</span><span>IndexedDB</span><span>Firebase</span>
+                  <span>AWS</span><span>Terraform</span><span>GitHub Actions</span>
                 </div>
-              </div>
-            </article>
-
-            <!-- Card 5: API -->
-            <article class="car-card">
-              <div class="card-thumb" style="--accent:#F59E0B">
-                <div class="thumb-ui center-col">
-                  <div class="code-block">
-                    <div class="code-row"><span class="m get">GET</span>/api/v1/users</div>
-                    <div class="code-row"><span class="m post">POST</span>/api/v1/auth</div>
-                    <div class="code-row"><span class="m put">PUT</span>/api/v1/data</div>
-                    <div class="code-row res">200 OK &mdash; { success: true }</div>
-                  </div>
-                </div>
-                <span class="card-badge">API Service</span>
-              </div>
-              <div class="card-body">
-                <h3>REST &amp; GraphQL APIs</h3>
-                <p>Scalable backend services with auth, rate limiting, caching, and comprehensive documentation.</p>
                 <div class="card-tags">
-                  <span>Node.js</span><span>GraphQL</span><span>PostgreSQL</span><span>Redis</span>
-                </div>
-              </div>
-            </article>
-
-            <!-- Card 6: Corporate Portal -->
-            <article class="car-card">
-              <div class="card-thumb" style="--accent:#EC4899">
-                <div class="thumb-ui">
-                  <div class="th-bar"></div>
-                  <div class="portal-grid">
-                    <div class="pg-card"></div>
-                    <div class="pg-card"></div>
-                    <div class="pg-card accent"></div>
-                    <div class="pg-card"></div>
-                  </div>
-                </div>
-                <span class="card-badge">Corporate Portal</span>
-              </div>
-              <div class="card-body">
-                <h3>Corporate Portal</h3>
-                <p>Internal tooling and workflow automation with SSO, audit trails, and custom reporting.</p>
-                <div class="card-tags">
-                  <span>React</span><span>TypeScript</span><span>Azure AD</span><span>Terraform</span>
+                  <span><a href="https://dclarkdev.com" target="_blank" rel="noopener noreferrer">Visit</a></span><span><a
+                      href="https://github.com/denkoregroup/dclarkdev" target="_blank" rel="noopener noreferrer">Code</a></span>
                 </div>
               </div>
             </article>
@@ -534,8 +344,8 @@
     <div class="section-wrap">
       <div class="section-head" data-animate="up">
         <span class="tag">Tech Stack</span>
-        <h2 class="section-title">Tools of the <span class="gradient-text">Trade</span></h2>
-        <p class="section-sub">Battle-tested technologies I use to build production systems</p>
+        <h2 class="section-title">Tools I <span class="gradient-text">Work With</span></h2>
+        <p class="section-sub">Technologies I use</p>
       </div>
 
       <div class="stack-grid-outer">
@@ -555,10 +365,9 @@
           <h3 class="cat-title"><i class="fas fa-server"></i> Backend</h3>
           <div class="stack-items">
             <div class="stack-item"><i class="devicon-nodejs-plain colored"></i><span>Node.js</span></div>
-            <div class="stack-item"><i class="devicon-python-plain colored"></i><span>Python</span></div>
             <div class="stack-item"><i class="devicon-spring-plain colored"></i><span>Spring Boot</span></div>
-            <div class="stack-item"><i class="devicon-express-original colored"></i><span>Express.js</span></div>
-            <div class="stack-item"><i class="devicon-graphql-plain colored"></i><span>GraphQL</span></div>
+            <div class="stack-item"><i class="devicon-laravel-original colored"></i><span>Laravel</span></div>
+            <div class="stack-item"><i class="devicon-php-plain colored"></i><span>PHP</span></div>
           </div>
         </div>
 
@@ -566,26 +375,38 @@
           <h3 class="cat-title"><i class="fas fa-database"></i> Data</h3>
           <div class="stack-items">
             <div class="stack-item"><i class="devicon-postgresql-plain colored"></i><span>PostgreSQL</span></div>
-            <div class="stack-item"><i class="devicon-mongodb-plain colored"></i><span>MongoDB</span></div>
-            <div class="stack-item"><i class="devicon-redis-plain colored"></i><span>Redis</span></div>
-            <div class="stack-item"><i class="devicon-mysql-plain colored"></i><span>MySQL</span></div>
-            <div class="stack-item stack-item-text"><span class="stack-logo-text">&#9651;</span><span>Prisma</span>
-            </div>
+            <div class="stack-item"><i class="devicon-supabase-plain colored"></i><span>Supabase</span></div>
+            <div class="stack-item"><i class="devicon-apachekafka-original colored"></i><span>Kafka</span></div>
           </div>
         </div>
 
         <div class="stack-cat" data-animate="right" data-delay="3">
           <h3 class="cat-title"><i class="fas fa-cloud"></i> Cloud &amp; DevOps</h3>
           <div class="stack-items">
-            <div class="stack-item"><i class="devicon-amazonwebservices-plain-wordmark colored"></i><span>AWS</span>
-            </div>
-            <div class="stack-item"><i class="devicon-googlecloud-plain colored"></i><span>GCP</span></div>
+            <div class="stack-item"><i class="devicon-amazonwebservices-plain-wordmark colored"></i><span>AWS</span></div>
             <div class="stack-item"><i class="devicon-docker-plain colored"></i><span>Docker</span></div>
             <div class="stack-item"><i class="devicon-kubernetes-plain colored"></i><span>Kubernetes</span></div>
             <div class="stack-item"><i class="devicon-terraform-plain colored"></i><span>Terraform</span></div>
+            <div class="stack-item"><i class="devicon-githubactions-plain colored"></i><span>GitHub Actions</span></div>
           </div>
         </div>
 
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== DENKORE GROUP ========== -->
+  <section id="denkore">
+    <div class="section-wrap">
+      <div class="section-head" data-animate="up">
+        <span class="tag">Denkore Group</span>
+        <h2 class="section-title">For web and technology work, see <span class="gradient-text">Denkore Group.</span>
+        </h2>
+        <p class="section-sub">A small technology company on the Eastern Shore.</p>
+      </div>
+      <div class="about-actions" data-animate="up" data-delay="2">
+        <a href="https://denkore.com" target="_blank" rel="noopener noreferrer" class="btn-primary">Visit denkore.com <i
+            class="fas fa-arrow-right"></i></a>
       </div>
     </div>
   </section>
@@ -598,21 +419,14 @@
       <div class="cta-grid-lines"></div>
     </div>
     <div class="cta-body">
-      <span class="tag" data-animate="down">Work Together</span>
+      <span class="tag" data-animate="down">Contact</span>
       <h2 class="cta-headline" data-animate="scale" data-delay="1">
-        Ready to build<br />
-        <span class="gradient-text">something great?</span>
+        Want to<br />
+        <span class="gradient-text">talk?</span>
       </h2>
       <p class="cta-sub" data-animate="up" data-delay="2">
-        Whether you need a technical partner, a fractional CTO, or a team to ship your product &mdash;
-        I&rsquo;m here to make it happen.
+        A project, a question about technology, or just getting started: I&rsquo;m happy to hear from you.
       </p>
-      <div class="cta-features" data-animate="up" data-delay="3">
-        <div class="cta-feat"><i class="fas fa-check-circle"></i><span>Architecture &amp; System Design</span></div>
-        <div class="cta-feat"><i class="fas fa-check-circle"></i><span>Full-Stack Development</span></div>
-        <div class="cta-feat"><i class="fas fa-check-circle"></i><span>Team Leadership &amp; Mentoring</span></div>
-        <div class="cta-feat"><i class="fas fa-check-circle"></i><span>Cloud Infrastructure &amp; DevOps</span></div>
-      </div>
       <a href="#contact" class="btn-cta" data-animate="scale" data-delay="4">
         Start a Conversation <i class="fas fa-arrow-right"></i>
       </a>
@@ -631,8 +445,8 @@
       <button class="modal-close" id="modalClose" aria-label="Close modal"><i class="fas fa-times"></i></button>
       <div class="modal-head">
         <span class="tag">Contact</span>
-        <h3>Let&rsquo;s Build Something</h3>
-        <p>Fill out the form and I&rsquo;ll get back to you within 24 hours.</p>
+        <h3>Let&rsquo;s Talk</h3>
+        <p>Fill out the form and I&rsquo;ll get back to you.</p>
       </div>
       <form class="contact-form" id="contactForm" novalidate>
         <input type="hidden" name="access_key" value="ae7ab14c-1171-4623-9d49-b701933bad7d" />
@@ -656,17 +470,15 @@
         <div class="form-field">
           <label for="fType">Project Type</label>
           <select id="fType" name="projectType">
-            <option value="">Select a service&hellip;</option>
-            <option value="cto">Fractional CTO</option>
-            <option value="fullstack">Fullstack Development</option>
-            <option value="arch">Architecture &amp; Consulting</option>
-            <option value="mvp">MVP Build</option>
-            <option value="other">Other</option>
+            <option value="">Select a topic&hellip;</option>
+            <option value="website">Website or web app</option>
+            <option value="advice">Technical advice</option>
+            <option value="other">Something else</option>
           </select>
         </div>
         <div class="form-field">
           <label for="fMsg">Message</label>
-          <textarea id="fMsg" name="message" rows="4" placeholder="Tell me about your project&hellip;"></textarea>
+          <textarea id="fMsg" name="message" rows="4" placeholder="Tell me a bit about it&hellip;"></textarea>
         </div>
         <button type="submit" class="btn-primary btn-full">
           Send Message <i class="fas fa-paper-plane"></i>
@@ -683,14 +495,14 @@
           <a href="#home" class="nav-logo">
             <img src="/logos/logo-nav.svg" alt="dclarkdev" height="40" />
           </a>
-          <p>Technical Pioneer. Fractional CTO.<br />Building the future, one stack at a time.</p>
+          <p>Full-stack developer on the Eastern Shore.</p>
           <div class="socials">
-            <a href="https://github.com/dclarkdev" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
-              <i class="fab fa-github"></i>
+            <a href="https://github.com/dclarktech302" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+              <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" focusable="false"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.58.1.79-.25.79-.56v-2c-3.2.7-3.87-1.37-3.87-1.37-.52-1.33-1.28-1.69-1.28-1.69-1.05-.71.08-.7.08-.7 1.15.08 1.76 1.19 1.76 1.19 1.03 1.76 2.69 1.25 3.35.96.1-.75.4-1.25.73-1.54-2.55-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.28 1.19-3.09-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.17 1.18a11 11 0 0 1 5.77 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.83 1.19 3.09 0 4.42-2.69 5.39-5.25 5.68.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5z"/></svg>
             </a>
             <a href="https://linkedin.com/in/david-clark2020" target="_blank" rel="noopener noreferrer"
               aria-label="LinkedIn">
-              <i class="fab fa-linkedin-in"></i>
+              <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" focusable="false"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.34V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0z"/></svg>
             </a>
           </div>
         </div>
@@ -698,24 +510,16 @@
           <div class="footer-col">
             <h4>Navigate</h4>
             <a href="#home">Home</a>
-            <a href="#clients">Clients</a>
             <a href="#about">About</a>
-            <a href="#local">Services</a>
-            <a href="#portfolio">Portfolio</a>
-            <a href="#stack">Tech Stack</a>
-          </div>
-          <div class="footer-col">
-            <h4>Services</h4>
-            <a href="#contact" data-service="cto">Fractional CTO</a>
-            <a href="#contact" data-service="fullstack">Fullstack Dev</a>
-            <a href="#contact" data-service="arch">Architecture</a>
-            <a href="#contact" data-service="arch">Consulting</a>
+            <a href="#portfolio">Work</a>
+            <a href="#stack">Stack</a>
+            <a href="#denkore">Denkore</a>
           </div>
         </div>
       </div>
       <div class="footer-bottom">
         <p>&copy; 2026 dclarkdev. All rights reserved.</p>
-        <a href="#contact" class="footer-link-cta">Start a Project &rarr;</a>
+        <a href="#contact" class="footer-link-cta">Get in touch &rarr;</a>
       </div>
     </div>
   </footer>

@@ -125,14 +125,9 @@
 
   if (!modal) return;
 
-  const serviceSelect = document.getElementById('fType');
-
-  function openModal(serviceValue) {
+  function openModal() {
     modal.classList.add('open');
     document.body.style.overflow = 'hidden';
-    if (serviceValue && serviceSelect) {
-      serviceSelect.value = serviceValue;
-    }
   }
 
   function closeModal() {
@@ -141,11 +136,10 @@
   }
 
   // All links/buttons pointing to #contact open the modal
-  // Footer service links with data-service auto-fill the dropdown
   document.querySelectorAll('a[href="#contact"], button[href="#contact"]').forEach(el => {
     el.addEventListener('click', e => {
       e.preventDefault();
-      openModal(el.dataset.service || null);
+      openModal();
     });
   });
 
@@ -201,7 +195,7 @@
             <div class="form-success">
               <i class="fas fa-check-circle"></i>
               <h4>Message Sent!</h4>
-              <p>Thanks for reaching out. I'll get back to you within 24 hours.</p>
+              <p>Thanks for reaching out. I'll be in touch.</p>
             </div>`;
         } else {
           submitBtn.disabled = false;
