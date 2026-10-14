@@ -195,7 +195,7 @@
             <div class="form-success">
               <i class="fas fa-check-circle"></i>
               <h4>Message Sent!</h4>
-              <p>Thanks for reaching out. I'll get back to you within 24 hours.</p>
+              <p>Thanks for reaching out. I'll be in touch.</p>
             </div>`;
         } else {
           submitBtn.disabled = false;
